@@ -1,0 +1,13 @@
+{
+  "name": "Alternet",
+  "short_name": "Alternet",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff00cc",
+  "icons": [{
+    "src": "icons/icon-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}

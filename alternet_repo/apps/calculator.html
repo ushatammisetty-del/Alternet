@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Calculator</title></head>
+<body><h2>Calculator</h2><input id="display" readonly><br>
+<button onclick="d('1')">1</button><button onclick="d('2')">2</button>
+<button onclick="d('+')">+</button><button onclick="c()">=</button>
+<script>function d(v){document.getElementById('display').value+=v;}
+function c(){document.getElementById('display').value=eval(document.getElementById('display').value);}</script>
+</body></html>
